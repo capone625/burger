@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	
+	<title>Eat-Da-Burger!</title>
+	<link rel="icon" sizes="32x32" href="./assets/image/burger_icon.jpg">
+
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">	
+	<link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+
+	<link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="./assets/js/burgers.js"></script>
+</head>
+<body>
+	<div class="container">
+		<section id="page-name">
+				<iframe id="main-image" src="https://giphy.com/embed/UAXou95E6oPjW" width="480" height="326" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+				<h1>Eat-Da-Buger</h1>
+		</section>
+
+		<section class="row">
+			<div class="col-md-7 col-left">
+				<table>
+					<tr class="table-row">
+						<td class="table-first-col">1. Cheese Burger</td>
+						<td><button class="change-devour" data-id="1">Devour it!</button></td>
+					</tr>
+					<tr class="table-row">
+						<td class="table-first-col">2. Chicken Burger</td>
+						<td><button class="change-devour" data-id="2">Devour it!</button></td>
+					</tr>
+					<tr class="table-row">
+						<td class="table-first-col">3. Turkey Burger</td>
+						<td><button class="change-devour" data-id="3">Devour it!</button></td>
+					</tr>
+				</table>
+			</div>
+			<div class="col-md-5 col-right">
+				<div>4. Steak Burger</div>
+			</div>			
+		</section>
+
+		<form class="create-form">
+			<div class="form-group">
+				<label for="name"></label>
+				<textarea id="name" name="burger-name" rows="2" cols="40"></textarea>
+			</div>
+			<button type="submit">Add Burger</button>
+		</form>		
+	</div>
+</body>
+</html>
+
