@@ -1,15 +1,8 @@
 {
-  "name": "burger",
+  "name": "eat-da-burger",
   "version": "1.0.0",
-  "description": "",
+  "description": "app that allows user to create burger and then devour it",
   "main": "server.js",
-  "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.4",
-    "express-handlebars": "^3.0.2",
-    "mysql": "^2.16.0"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -18,11 +11,17 @@
     "type": "git",
     "url": "git+https://github.com/capone625/burger.git"
   },
-  "keywords": [],
-  "author": "Eric Capone",
+  "author": "Eric",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/capone625/burger/issues"
   },
-  "homepage": "https://github.com/capone625/burger#readme"
+  "homepage": "https://github.com/capone625/burger#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.1",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.10",
+    "mysql": "^2.16.0"
+  }
 }

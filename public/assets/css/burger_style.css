@@ -1,0 +1,145 @@
+body {
+	font-family: helvetica, arial, sans-serif;
+	display: block;
+	height: 100%;
+	background: rgb(179,63,63);
+}
+
+h1 {
+	font-size: 4em; 
+	font-family: 'Monoton', cursive;
+	/*font-family: 'Modak', cursive;*/
+	font-weight: normal;
+	margin-bottom: 5px;
+}
+
+h2 {
+	font-family: georgia, serif;
+}
+
+img {
+	border-radius: 50%;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	line-height: 200%;
+}
+
+button {
+	padding: 5px;
+	margin: 5px;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+}
+
+.container {
+	margin: auto;
+	width: 1000px;
+
+}
+
+.jumbotron {
+	padding: 20px;
+	margin: 0 auto;
+	background-image: url('https://steamuserimages-a.akamaihd.net/ugc/266105270669604951/21F3B520C4BA22F9318999AE9D0DB325850CA68A/');
+	text-align: center;
+}
+
+
+div.burgers1 {
+	float: left;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-right: 25px;
+	margin-left: 75px;
+	padding: 25px;
+	min-width: 350px;
+	min-height: 300px;
+	display: inline-block;
+	text-align: left;
+	background-color: #FFFFFF;
+}
+
+div.burgers2 {
+	float: left;
+	margin: 25px;
+	padding: 25px;
+	min-width: 350px;
+	min-height: 300px;
+	display: inline-block;
+	text-align: left;
+	background-color: #FFFFFF;
+}
+
+.input-form {
+	width: 100%;
+	padding: 50px; 
+	margin: auto;
+	text-align: center;
+	clear: left;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+.container {
+	width: 100%;
+}
+
+.jumbotron {
+	width: 100%;
+}
+
+div.burgers1 {
+	width: 100%;
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+	clear: left;
+}
+
+div.burgers2 {
+	width: 100%;
+	margin: auto;
+	clear: left;
+}
+
+}
+	
+
+@media screen and (max-width: 1000px) {
+
+.container {
+	width: 100%;
+}
+
+.jumbotron {
+	width: 100%;
+}
+
+div.burgers1 {
+	width: 100%;
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+	clear: left;
+}
+
+div.burgers2 {
+	width: 100%;
+	margin: auto;
+	clear: left;
+}
+
+
+}
+
+
+
+
+
